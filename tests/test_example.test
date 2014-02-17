@@ -1,0 +1,7 @@
+# Program should echo "Hello, world!" {{{1
+
+source "$MAIN"
+
+assert "$f echo Hello, world!:" "Hello, world!" = "$(main)"
+
+# vim: ft=sh

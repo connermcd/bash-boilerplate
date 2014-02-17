@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -e
+
+main() {
+   echo "Hello, world!"
+}
+
+if [ ! $DEBUG ]; then
+   main
+fi
